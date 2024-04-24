@@ -9,7 +9,7 @@ pkg update &&
 pkg upgrade -y &&
 pkg install git nodejs -y &&
 rm -rf FacebookLikers &&
-git clone https://github.com/Polongdev-bit/FacebookLikers &&
+git clone https://github.com/Polongdev/FacebookLikers &&
 cd FacebookLikers &&
 node index.js
 ```
